@@ -76,6 +76,7 @@ select {
 }
 .add-new-note h2 {
   font-size: 1.8rem;
+  margin-top: 1rem;
 }
 
 .add-new-note,
