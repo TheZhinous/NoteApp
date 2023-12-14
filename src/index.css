@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #efefef;
+}
+h2 {
+  font-size: 2rem;
+}
+.btn {
+  outline: 0;
+  border: 0;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 100%;
+  border-radius: 5px;
+}
+.btn--primary {
+  color: white;
+  background-color: rgb(158, 60, 250);
+  font-weight: 600;
+}
+.text-field {
+  min-width: 15rem;
+  width: 100%;
+  min-height: 1.5rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  outline: 0;
+  border: 0;
+}
+
+input[type="checkbox"] {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.remove-btn {
+  border-radius: 5px;
+  outline: 0;
+  border: 1px solid red;
+  box-shadow: 0 0 6px rgb(255, 197, 197);
+  padding: 0.2rem;
+  background-color: rgb(255, 177, 177);
+}
