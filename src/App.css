@@ -162,8 +162,9 @@ select {
   font-weight: 600;
   color: #333d58;
 }
-.info .description {
+.info .description{
   opacity: 70%;
+  color: #333d58;
 }
 
 .option {
@@ -177,4 +178,9 @@ select {
   opacity: 70%;
   padding: 0.3rem;
   text-align: center;
+}
+
+.complete.title{
+  opacity: 0.6;
+  text-decoration: line-through;
 }

@@ -42,10 +42,11 @@ input[type="checkbox"] {
   height: 1.4rem;
 }
 .remove-btn {
-  border-radius: 5px;
+  width: 1.9rem;
+  height: 2rem;
   outline: 0;
-  border: 1px solid red;
-  box-shadow: 0 0 6px rgb(255, 197, 197);
-  padding: 0.2rem;
-  background-color: rgb(255, 177, 177);
+  border: 0;
+  background:none;
+  color: red;
+  cursor: pointer;
 }

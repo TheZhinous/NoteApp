@@ -1,24 +1,29 @@
 const sortedValues = [
   {
     id: 1,
-    value: "sorted based on latest note",
+    text: "sorted based on latest note",
+    value: "latest",
   },
   {
     id: 2,
-    value: "sorted based on earliest note",
+    text: "sorted based on earliest note",
+    value: "earliest",
   },
   {
     id: 3,
-    value: "sorted based on completed note",
+    text: "sorted based on completed note",
+    value: "completed",
   },
 ];
-function NoteHeader() {
+function NoteHeader({ notes, onChangeSort }) {
   return (
     <div className="note-header">
-      <h2>NoteApp(3)</h2>
-      <select className="note-sort">
+      <h2>NoteApp({notes.length})</h2>
+      <select className="note-sort" onChange={onChangeSort}>
         {sortedValues.map((i) => (
-          <option key={i.id} className="note-sort_item">{i.value}</option>
+          <option key={i.id} className="note-sort_item" value={i.value}>
+            {i.text}
+          </option>
         ))}
       </select>
     </div>
